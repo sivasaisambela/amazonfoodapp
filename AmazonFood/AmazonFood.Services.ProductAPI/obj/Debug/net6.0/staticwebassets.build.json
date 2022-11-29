@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SxCnRo9txzs304RCD/eugxaUE6xLUC4bO1yCs/Iau7Y=",
+  "Source": "AmazonFood.Services.ProductAPI",
+  "BasePath": "_content/AmazonFood.Services.ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
