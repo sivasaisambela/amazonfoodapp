@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\sivas\\source\\repos\\.NET CORE\\AmazonFood\\AmazonFood.Web\\wwwroot\\images\\afood.png",
+      "PackagePath": "staticwebassets\\images\\afood.png"
+    },
+    {
       "Id": "C:\\Users\\sivas\\source\\repos\\.NET CORE\\AmazonFood\\AmazonFood.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

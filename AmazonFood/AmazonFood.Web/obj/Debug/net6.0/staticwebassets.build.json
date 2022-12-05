@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qfG3xo4IODCAYWMtrTm/MgvFRW3O+6tWwa23yEWk9oE=",
+  "Hash": "SlR0RWRk7sgq9/rE5aIE8G5TPl50HrHxdVH1lY4MRWo=",
   "Source": "AmazonFood.Web",
   "BasePath": "_content/AmazonFood.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sivas\\source\\repos\\.NET CORE\\AmazonFood\\AmazonFood.Web\\wwwroot\\images\\afood.png",
+      "SourceId": "AmazonFood.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sivas\\source\\repos\\.NET CORE\\AmazonFood\\AmazonFood.Web\\wwwroot\\",
+      "BasePath": "_content/AmazonFood.Web",
+      "RelativePath": "images/afood.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\afood.png"
     },
     {
       "Identity": "C:\\Users\\sivas\\source\\repos\\.NET CORE\\AmazonFood\\AmazonFood.Web\\wwwroot\\js\\site.js",

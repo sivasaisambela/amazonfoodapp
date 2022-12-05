@@ -10,9 +10,9 @@ namespace AmazonFood.Services.ProductAPI.Controllers
         private readonly ResponseDto _responseDto;
         private readonly IProductRepository _productRepository;
 
-        public ProductAPIController(ResponseDto responseDto,IProductRepository productRepository)
+        public ProductAPIController(IProductRepository productRepository)
         {
-            _responseDto = responseDto;
+            _responseDto = new ResponseDto();
             _productRepository = productRepository;
         }
 
@@ -36,11 +36,11 @@ namespace AmazonFood.Services.ProductAPI.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public async Task<ResponseDto> Get(int Id)
+        public async Task<ResponseDto> Get(int id)
         {
             try
             {
-                ProductDto productDto = await _productRepository.GetProductById(Id);
+                ProductDto productDto = await _productRepository.GetProductById(id);
                 _responseDto.Result = productDto;
             }
             catch (Exception ex)
@@ -91,13 +91,13 @@ namespace AmazonFood.Services.ProductAPI.Controllers
 
 
         [HttpDelete]
-
-        public async Task<ResponseDto> Delete(int ProductId)
+        [Route("{id}")]
+        public async Task<ResponseDto> Delete(int id)
         {
 
             try
             {
-                 bool opt= await _productRepository.DeleteProduct(ProductId);
+                 bool opt= await _productRepository.DeleteProduct(id);
                 _responseDto.Result = opt;
             }
             catch (Exception ex)

@@ -34,11 +34,11 @@ namespace AmazonFood.Services.ProductAPI.Repository
             return _mapper.Map<Product, ProductDto>(prd);
         }
 
-        public async Task<bool> DeleteProduct(int productId)
+        public async Task<bool> DeleteProduct(int id)
         {
             try
             {
-               Product p = await _dbContext.Products.Where(x => x.ProductId == productId).FirstOrDefaultAsync();
+               Product p = await _dbContext.Products.Where(x => x.ProductId == id).FirstOrDefaultAsync();
                if (p != null) {
                     _dbContext.Products.Remove(p);
                     _dbContext.SaveChanges();
@@ -55,9 +55,9 @@ namespace AmazonFood.Services.ProductAPI.Repository
             return true;
         }
 
-        public async Task<ProductDto> GetProductById(int productId)
+        public async Task<ProductDto> GetProductById(int id)
         {
-           Product prd= await _dbContext.Products.Where(x => x.ProductId == productId).FirstOrDefaultAsync();
+           Product prd= await _dbContext.Products.Where(x => x.ProductId == id).FirstOrDefaultAsync();
             return _mapper.Map<ProductDto>(prd);
 
         }
