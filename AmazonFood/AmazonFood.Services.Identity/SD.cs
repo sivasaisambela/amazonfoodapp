@@ -1,6 +1,7 @@
 ﻿using Duende.IdentityServer;
 using Duende.IdentityServer.Models;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using static System.Net.WebRequestMethods;
 
 namespace AmazonFood.Services.Identity
 {
@@ -40,9 +41,10 @@ namespace AmazonFood.Services.Identity
                 {
                     ClientId="amazonfood",
                     ClientSecrets={new Secret("secret".Sha256())},
-                    AllowedGrantTypes=GrantTypes.Code,
-                    RedirectUris={ "http://localhost:44397/signin-oidc" },
-                    PostLogoutRedirectUris={"https://44378/singout-callback-oidc"},
+                     AllowedGrantTypes=GrantTypes.Code,
+                    
+                    RedirectUris={ "https://localhost:7072/signin-oidc" },
+                    PostLogoutRedirectUris={"https://localhost:7072/singout-callback-oidc"},
                     AllowedScopes=new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,

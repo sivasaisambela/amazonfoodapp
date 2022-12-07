@@ -2375,19 +2375,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sambelas\\.nuget\\packages\\": {}
+    "C:\\Users\\sivas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\AmazonFood.Services.ProductAPI.csproj",
+      "projectUniqueName": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\AmazonFood.Services.ProductAPI.csproj",
       "projectName": "AmazonFood.Services.ProductAPI",
-      "projectPath": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\AmazonFood.Services.ProductAPI.csproj",
-      "packagesPath": "C:\\Users\\sambelas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\obj\\",
+      "projectPath": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\AmazonFood.Services.ProductAPI.csproj",
+      "packagesPath": "C:\\Users\\sivas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sambelas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sivas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj": {}
+    "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj": {
+    "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj",
         "projectName": "AmazonFood.Services.Identity",
-        "projectPath": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj",
-        "packagesPath": "C:\\Users\\sambelas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sambelas\\source\\repos\\.NET CORE\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\obj\\",
+        "projectPath": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\AmazonFood.Services.Identity.csproj",
+        "packagesPath": "C:\\Users\\sivas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sivas\\source\\repos\\AF\\amazonfoodapp\\AmazonFood\\AmazonFood.Services.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sambelas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sivas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

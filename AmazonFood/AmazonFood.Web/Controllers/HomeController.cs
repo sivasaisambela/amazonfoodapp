@@ -18,6 +18,8 @@ namespace AmazonFood.Web.Controllers
         {
             return View();
         }
+
+       
         [Authorize]
         public IActionResult Login()
         {
