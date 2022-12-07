@@ -5,11 +5,13 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B4839117-30E3-4D79-BD04-0D22C10A1B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonFood.Web", "AmazonFood.Web\AmazonFood.Web.csproj", "{BA4EEABF-DA47-4CA9-9DAD-81ACAE513D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonFood.Web", "AmazonFood.Web\AmazonFood.Web.csproj", "{BA4EEABF-DA47-4CA9-9DAD-81ACAE513D83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7ADE20D9-E511-47BB-B097-43E5C4555DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonFood.Services.ProductAPI", "AmazonFood.Services.ProductAPI\AmazonFood.Services.ProductAPI.csproj", "{C2D82FCA-283E-461B-9580-824CA1D718CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonFood.Services.ProductAPI", "AmazonFood.Services.ProductAPI\AmazonFood.Services.ProductAPI.csproj", "{C2D82FCA-283E-461B-9580-824CA1D718CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonFood.Services.Identity", "AmazonFood.Services.Identity\AmazonFood.Services.Identity.csproj", "{B9F0988B-874F-401A-813E-B358F6F72C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{C2D82FCA-283E-461B-9580-824CA1D718CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2D82FCA-283E-461B-9580-824CA1D718CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2D82FCA-283E-461B-9580-824CA1D718CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F0988B-874F-401A-813E-B358F6F72C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F0988B-874F-401A-813E-B358F6F72C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F0988B-874F-401A-813E-B358F6F72C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F0988B-874F-401A-813E-B358F6F72C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BA4EEABF-DA47-4CA9-9DAD-81ACAE513D83} = {B4839117-30E3-4D79-BD04-0D22C10A1B3C}
 		{C2D82FCA-283E-461B-9580-824CA1D718CA} = {7ADE20D9-E511-47BB-B097-43E5C4555DE7}
+		{B9F0988B-874F-401A-813E-B358F6F72C5A} = {7ADE20D9-E511-47BB-B097-43E5C4555DE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE851E07-C4AF-4483-A5F3-33B2D2B1A0E8}

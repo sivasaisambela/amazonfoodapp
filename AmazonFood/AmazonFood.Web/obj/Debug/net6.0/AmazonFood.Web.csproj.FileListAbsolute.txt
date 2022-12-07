@@ -244,3 +244,11 @@ C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0
 C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sivas\source\repos\.NET CORE\AmazonFood\AmazonFood.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,5 +1,6 @@
 ﻿using AmazonFood.Services.ProductAPI.Models.DTO;
 using AmazonFood.Services.ProductAPI.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AmazonFood.Services.ProductAPI.Controllers
@@ -17,6 +18,7 @@ namespace AmazonFood.Services.ProductAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ResponseDto> Get()
         {
             try
@@ -35,6 +37,7 @@ namespace AmazonFood.Services.ProductAPI.Controllers
 
 
         [HttpGet]
+        [Authorize]
         [Route("{id}")]
         public async Task<ResponseDto> Get(int id)
         {
@@ -54,7 +57,7 @@ namespace AmazonFood.Services.ProductAPI.Controllers
 
 
         [HttpPost]
-       
+        [Authorize]
         public async Task<ResponseDto> Post([FromBody] ProductDto productDto)
         {
             try
@@ -72,7 +75,7 @@ namespace AmazonFood.Services.ProductAPI.Controllers
         }
 
         [HttpPut]
-
+        [Authorize]
         public async Task<ResponseDto> Put([FromBody] ProductDto productDto)
         {
             try
@@ -91,7 +94,9 @@ namespace AmazonFood.Services.ProductAPI.Controllers
 
 
         [HttpDelete]
+        [Authorize(Roles ="Admin")]
         [Route("{id}")]
+        
         public async Task<ResponseDto> Delete(int id)
         {
 
